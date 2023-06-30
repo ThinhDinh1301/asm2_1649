@@ -1,0 +1,29 @@
+a{
+    text-decoration: none;
+}
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.border-shadow{
+    border: 1px solid var(--border-btn);
+    box-shadow: 1px 3px 10px #e9ecef;
+}
+
+.text-gradient{
+    background: linear-gradient(to right, #006400, #2e4328);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
